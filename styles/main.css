@@ -65,3 +65,16 @@ span img{
 .reshka{
     background-color: green;
 }
+
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        max-width: 768px;
+    }
+    .container{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+
+}
