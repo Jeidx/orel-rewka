@@ -8,7 +8,7 @@
 
 .wrapper{
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
     padding: 50px;
 }
 .container{
@@ -68,8 +68,12 @@ span img{
 
 
 @media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
     .wrapper{
-        max-width: 768px;
+        width: 100%;
+        padding: 10px;
     }
     .container{
         width: 100%;
